@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Timer</title>
+        <meta charset='UTF-8'>
+        <link rel='stylesheet' type="text/css" href="style.css">
+        <script>
+            var num = 0;
+            var interval;
+            function begin(){
+                let time = document.getElementById('timer');
+                time.innerHTML = num;
+                num ++;
+            }
+
+            function atualizar(){
+                interval = setInterval(begin, 1000);
+            }
+
+            function stop(){
+                clearInterval(interval);
+            }
+        </script>
+
+    </head>
+    <body>
+        <h1 id='timer'>00:00</h1>
+        <input type='submit' id='btn' onclick="atualizar()" value="Start">
+        <input type='submit' id='btn_stop' onclick="stop()" value="Stop">
+    </body>
+</html>

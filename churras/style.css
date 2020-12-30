@@ -1,0 +1,30 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+body{
+    background-image: url('barbecue.png');
+    background-size: cover;
+}
+main{
+    text-align: center;
+    margin: auto;
+    margin-top: 10%;
+    width: 30%;
+    background-color: peachpuff;
+    padding: 0.7em;
+    border-radius: 2%;
+    box-shadow: 4px 4px gray;
+}
+
+input{
+    padding: 2%;
+    margin: 2%;
+}
+
+#btn{
+    margin-bottom: 3%;
+    padding: 2%;
+}

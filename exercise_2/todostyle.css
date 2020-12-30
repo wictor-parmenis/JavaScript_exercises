@@ -1,0 +1,78 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-image: url('business-people-handshake-greeting-deal-at-work.jpg');
+    background-size: cover;
+}
+
+.part1 h1{
+    font-family: 'DM Serif Text', serif;
+}
+
+.part1 p{
+    margin-bottom: 8%;
+    font-family: 'DM Serif Text', serif;
+    
+}
+
+h3{
+    margin-bottom: 5%;
+    font-family: 'Markazi Text', serif;
+    font-size: 1.6em;
+}
+
+.task1{
+    display: inline-block;
+    margin-bottom: 3%;
+    font-family: 'Markazi Text', serif;
+    font-size: 1.5em;
+}
+
+.task_text{
+    margin-left: 2%;
+    padding-right: 6em;
+    padding-top: 0.5em;
+    font-family: 'Markazi Text', serif;
+    font-size: 1.2em;
+}
+
+#add_task{
+    padding: 1.5%;
+    margin-top: 2%;
+    font-family: 'Markazi Text', serif;
+    font-size: 1.5em;
+        
+}
+
+
+
+#program{
+    width: 30%;
+    background-color: peachpuff;
+    text-align: center;
+    margin: auto;
+    padding: 2%;
+    border: 0.2em peru solid;
+    border-radius: 2%;
+    margin-top: 6em;
+    /* box-shadow = x , y , color  */
+    box-shadow: 0.5em 0.5em silver;
+}
+
+#insta{
+    width: 3%;
+    margin-top: 2%;
+    float: right;
+    margin-right: 5%;
+}
+
+#playstore{
+    width: 8%;
+    margin-top: 2%;
+    float: right;
+    margin-right: 2%;
+    margin-bottom: 1%;
+}
