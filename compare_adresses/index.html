@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="general">
+    <div class="container">
+    <form>
+        <h1 class="adress">Insert adress 1 here</h1>
+        <input type="text" placeholder="Street" id="street"><br>
+        <input type="text" placeholder="City" id="city"><br>
+        <input type="number" placeholder="CEP" id="cep"><br><br>  
+        <br>
+    </div>
+    </form>
+    <div class="container_2">
+        <form>
+            <h1 class="adress">Insert adress 2 here</h1>
+            <input type="text" placeholder="Street" id="street2"><br>
+            <input type="text" placeholder="City" id="city2"><br>
+            <input type="number" placeholder="CEP" id="cep2"><br><br>  
+            <br>
+        </div>
+        </form>
+    </div>
+    <div onclick="compareAdresses()" id="btn_click"><b>COMPARE</b></div>
+
+    <div id="results" id="results">
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

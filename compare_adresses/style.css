@@ -1,0 +1,49 @@
+.container{
+    text-align: center; 
+    background-color: lightgreen; 
+    border: gray 2px solid ;
+    border-radius: 2%;
+    
+}
+
+.container_2{
+    text-align: center; 
+    background-color: lightgreen; 
+    border: gray 2px solid ;
+    border-radius: 2%;
+}
+
+.general{
+    display: grid;
+    grid-template-columns: 35% 35% ;
+    gap: 5%;
+    justify-content: center;
+    margin-top: 8%;
+}
+
+#btn_click{
+    margin: auto; 
+    width: 8%; 
+    padding: 0.2%; 
+    border: gray solid 1px;
+    border-radius: 7%;
+    background-color: rgb(98, 169, 192);
+    margin-top: 2%;
+    text-align: center;
+    transition-duration: 500ms;
+}
+
+
+#btn_click:hover{
+    color: white;
+    padding: 0.3%;
+}
+
+#results{
+    margin: auto;
+    text-align: center;
+    width: 20%; 
+    margin-top: 5%; 
+    background-color: rgb(98, 169, 192); 
+    color: whitesmoke; 
+}
