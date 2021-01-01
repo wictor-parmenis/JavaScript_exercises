@@ -6,7 +6,7 @@ de preço escolhida pelo usuário.
 
 let results = document.getElementById('results')
 let products = 
-// Properties of object.
+// Propriedades dos objetos.
 {
     name : ['1. Iphone X', '2. Iphone 12', '3. Galaxy S20', '4. Xbox control', '5. Sound Sony',
      '6 Headphone JBL', '7. Galaxy A10'],
