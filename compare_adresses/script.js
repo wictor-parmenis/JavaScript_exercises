@@ -26,7 +26,7 @@ const adress_2 = {
 }
 
 //Function for compare adresses.
-function compareAdresses(){
+function compareAdresses(adress, adress_2){
     for (i in adress){
         for (j in adress_2){
             if (adress[i] === adress_2[j]){
@@ -37,5 +37,7 @@ function compareAdresses(){
         }
     }
 }
+
+compareAdresses(adress, adress_2)
 
 

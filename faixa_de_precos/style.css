@@ -1,0 +1,14 @@
+.container{
+    background-color: lightpink;
+    height: 20vh;
+    width: 30vw;
+    padding: 1vh;
+    text-align: center;
+    margin: auto;
+    border: 1px gray solid;
+    border-radius: 2%;
+}
+
+.btn_price{
+    transform: translateY(200%);
+}
