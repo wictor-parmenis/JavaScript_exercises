@@ -12,3 +12,7 @@
 .btn_price{
     transform: translateY(200%);
 }
+
+#results{
+    transform: translateY(300%);
+}
