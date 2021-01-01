@@ -14,8 +14,10 @@ let results = document.getElementById('results');
 
 
 guests = {
+    //Add the names what can entry in your party.
     names : ['Flávio', 'Érika', 'Igor', 'Jonas', 'Marta', 'Carlos', 'Ricardo', 'José',
             'João', 'Jotapê', 'Laura', 'Diógenes'],
+    // Add the party owners;
     owners : ['Érico', 'Joba']
 };
 
@@ -49,5 +51,4 @@ function checking(){
     }else{
         results.innerHTML += `<p> You cannot entry  :(</p>`
     }
-    
 };
