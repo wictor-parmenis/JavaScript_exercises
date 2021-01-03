@@ -13,19 +13,36 @@ let f_secret = document.getElementById('check');
 
 
 
-guests = {
+
+
     //Add the names of secret friend event.
-    names : ['Flávio', 'Érika', 'Igor', 'Jonas', 'Marta', 'Carlos', 'Ricardo', 'José',
-            'João', 'Jotapê', 'Laura', 'Diógenes', 'Mário'],
+    names : ['Flávio', 'Érika', 'Igor', 'Jonas', 'Marta', 'Carlos',
+     'Ricardo', 'José','João', 'Jotapê', 'Laura', 'Diógenes', 'Mário'],
     left : []
 };
 
 function checking(){
+    //Function for check peoples with already has your secret friend or not.
+    let progress = 0;
     results.innerHTML = `<p></p>`;
     var random = Math.floor(Math.random() * 13);
     let secret = guests.names[random];
     guests.left.push(secret);
-    window.console.log(guests.left);
-    results.innerHTML += `<p>  ${secret}</p>`
 
-};
+    results.innerHTML = `<p>${secret}</p>`
+    window.console.log(guests.left)
+    for (people in guests.left){
+        if(guests.left[people] === secret){
+            progress += 1;
+            window.console.log(guests.left[people], secret, progress);
+        }else{
+            if (progress >= 2){
+                results.innerHTML = `<p>${secret}</p>`;
+                setTimeout(500);
+                checking();
+            }
+        }
+
+    }   
+}
+
